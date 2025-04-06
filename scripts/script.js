@@ -11,7 +11,6 @@ const textoNo = document.getElementById("textoNo");
 let intentos=0;
 botonNo.addEventListener("click",()=>{
     audioNo.play();
-    imagenNo.style.display="flex";
     
 });
 botonNo.addEventListener("mouseover", () => {
