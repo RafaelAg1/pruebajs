@@ -1,0 +1,66 @@
+
+h1{
+    text-align: center;
+}
+#botones{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    gap: 10%;
+    justify-content: center;
+    margin-top: 15%;
+}
+#botones button{
+    width: 40%;
+    display: flex;
+}
+#botonsi{
+    color: yellowgreen;
+    text-align: center; 
+    line-height: 65px;
+    font-size: xx-large;
+    
+}
+#botonno{
+    color: red;
+    text-align: center; 
+    line-height: 65px;
+    font-size: xx-large;
+}
+#botones button:hover{
+    cursor: pointer;
+}
+#gatitotriste{
+    position: relative;
+    display: flex;  
+    width: 40%;
+    display: none;
+}
+#imagenesdiv{
+    display: flex;
+    position: relative;
+    justify-content: flex-end;
+    margin-top: 5%;
+    right: 5%;
+}
+#videogatito{
+    display: none;
+    width: 100%;
+    position: relative;
+    justify-content: center;
+    margin-top: -20%;
+}
+#textoSi {
+    display: none;          
+    text-align: center;    
+    margin: 20px auto;      
+    width: 80%;            
+    font-size: 1.5em;      
+    color: #ff69b4;     
+}
+#textoNo{
+    display: none;
+}
+#maindiv p{
+    text-align: center;
+}
